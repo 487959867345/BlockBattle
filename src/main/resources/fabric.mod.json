@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "blockbattle",
+  "version": "${version}",
+  "name": "BlockBattle",
+  "description": "Best tfr copy",
+  "authors": [
+    "i ran out of name ideas"
+  ],
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.catchyaintit.blockbattle.BlockBattle"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.1",
+    "fabric": "*",
+    "minecraft": "1.16.4",
+    "plasmid": "0.4.x"
+  }
+}
